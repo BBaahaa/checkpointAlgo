@@ -1,0 +1,5 @@
+1- Initialize a variable 'sum' to store the sum of distinct elements and set it to 0.
+2- Loop through each element in the first set and second set:
+	a/ first element: if 'set1[i]' not include in 'set2' add it to 'sum'
+	b/ second element: if 'set2[i]' not include in 'set1' add it to 'sum'
+3- return 'sum'

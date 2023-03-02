@@ -1,0 +1,41 @@
+1- Algorithm for dot_product procedure:
+
+	1/ Start
+	2/ Input the vectors v1 and v2 of length n
+	3/ Initialize the variable ps to 0
+	4/ For i from 1 to n, do steps 5-6
+	5/ Multiply the ith element of v1 with the ith element of v2
+	6/ Add the result to ps
+	7/ Return ps
+	8/ End
+
+2- Algorithm for determining orthogonal vectors using dot_product procedure:
+
+	1/ Start
+	2/ Input the number of pairs of vectors n
+	3/ For i from 1 to n, do steps 4-5
+	4/ Input the vectors v1 and v2 of length m
+	5/ If dot_product(v1, v2) equals 0, print "The vectors v1 and v2 are orthogonal"
+	6/ If dot_product(v1, v2) is not equal to 0, print "The vectors v1 and v2 are not orthogonal"
+	7/ End
+
+3- Algorithm for dot_product function:
+
+	1/ Start
+	2/ Define the function dot_product(v1, v2) that takes in two vectors of length n
+	3/ Initialize the variable ps to 0
+	4/ For i from 1 to n, do steps 5-6
+	5/ Multiply the ith element of v1 with the ith element of v2
+	6/ Add the result to ps
+	7/ Return ps
+	8/ End
+
+4- Algorithm for determining orthogonal vectors using dot_product function:
+
+	1/ Start
+	2/ Input the number of pairs of vectors n
+	3/ For i from 1 to n, do steps 4-5
+	4/ Input the vectors v1 and v2 of length m
+	5/ If dot_product(v1, v2) equals 0, print "The vectors v1 and v2 are orthogonal"
+	6/ If dot_product(v1, v2) is not equal to 0, print "The vectors v1 and v2 are not orthogonal"
+	7/ End
